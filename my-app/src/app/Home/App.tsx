@@ -31,7 +31,6 @@ import {
 import { AntDesign } from "@expo/vector-icons";
 import { styles } from "./Style";
 
-
 interface Item {
   id: string;
   nome: string;
@@ -51,6 +50,10 @@ export default function App() {
     setItem("");
   };
 
+  const excluirItem = (id: string) => {
+    setLista(lista.filter((item) => item.id !== id));
+  };
+
   const renderItem = ({ item, index }: { item: Item; index: number }) => (
     <View
       style={[
@@ -60,6 +63,11 @@ export default function App() {
     >
       <AntDesign name="checkcircle" size={20} color="#fff" />
       <Text style={styles.texto}>{item.nome}</Text>
+
+      {/* Botão de excluir */}
+      <TouchableOpacity onPress={() => excluirItem(item.id)}>
+        <AntDesign name="delete" size={20} color="red" />
+      </TouchableOpacity>
     </View>
   );
 
