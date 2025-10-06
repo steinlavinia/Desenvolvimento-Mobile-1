@@ -64,7 +64,6 @@ export default function App() {
       <AntDesign name="checkcircle" size={20} color="#fff" />
       <Text style={styles.texto}>{item.nome}</Text>
 
-      {/* Botão de excluir */}
       <TouchableOpacity onPress={() => excluirItem(item.id)}>
         <AntDesign name="delete" size={20} color="red" />
       </TouchableOpacity>
