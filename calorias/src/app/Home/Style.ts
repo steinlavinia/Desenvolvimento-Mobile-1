@@ -67,8 +67,8 @@ export const styles = StyleSheet.create({
   totalBox: {
     position: 'absolute',
     bottom: 20,
-    right: 20,
-    backgroundColor: '#A0E7E5',
+    right: 170,
+    backgroundColor: '#5a189a',
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20,
@@ -81,6 +81,6 @@ export const styles = StyleSheet.create({
   totalTexto: {
     fontWeight: 'bold',
     fontSize: 16,
-    color: '#333',
+    color: '#fff',
   },
 });
