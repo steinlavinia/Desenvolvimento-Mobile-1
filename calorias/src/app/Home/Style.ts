@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F0F4F8',
+    backgroundColor: '#fff',
     padding: 20,
     marginTop: 40,
   },
@@ -12,10 +12,10 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignSelf: 'center',
     marginBottom: 20,
-    color: '#333',
+    color: '#5a189a',
   },
   input: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#fff',
     padding: 12,
     borderRadius: 8,
     marginBottom: 10,
@@ -23,14 +23,14 @@ export const styles = StyleSheet.create({
     borderColor: '#CED4DA',
   },
   botao: {
-    backgroundColor: '#6C63FF',
+    backgroundColor: '#5a189a',
     padding: 12,
     borderRadius: 8,
     alignItems: 'center',
     marginBottom: 20,
   },
   botaoTexto: {
-    color: '#FFFFFF',
+    color: '#fff',
     fontWeight: 'bold',
     fontSize: 16,
   },
@@ -46,13 +46,13 @@ export const styles = StyleSheet.create({
     color: '#333',
   },
   limparTexto: {
-    color: '#FF6B6B',
+    color: '#5a189a',
     fontWeight: 'bold',
   },
   itemLinha: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#fff',
     padding: 12,
     marginBottom: 8,
     borderRadius: 6,
@@ -60,7 +60,7 @@ export const styles = StyleSheet.create({
     borderColor: '#E0E0E0',
   },
   removerTexto: {
-    color: '#FF6B6B',
+    color: '#5a189a',
     fontSize: 14,
     fontWeight: '600',
   },

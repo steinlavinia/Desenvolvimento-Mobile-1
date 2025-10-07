@@ -45,7 +45,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.titulo}>Calorias</Text>
+      <Text style={styles.titulo}>CALORIAS</Text>
 
       <TextInput
         placeholder="Digite o alimento"
